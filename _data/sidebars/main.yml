@@ -6,7 +6,7 @@ subitems:
   - title: Collections
     subitems:
       - title: Data management
-        url:/data_management
+        url: /data_management
       - title: Genomics
         url: /genomics
       - title: Metabolomics
