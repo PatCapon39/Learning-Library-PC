@@ -8,7 +8,7 @@ import yaml
 import os
 
 # --------- Variables ---------
-google_id = "1uIBItELephFZNjC4UPoegQpo1pIzY15IjOgX8q33slU"
+google_id = "1fKdG2PUrF_1lWeOfrnm1bhq3Sw76JrImsn_ZbWkLwMA"
 gid = "0"
 url = f"https://docs.google.com/spreadsheets/d/{google_id}/export?format=csv&gid={gid}"
 output_path = "_data/tool_and_resource_list.yml"
@@ -18,7 +18,7 @@ allowed_providers = ['provider']
 # --------- Converting the table ---------
 
 print(f"----> Converting google table to {output_path} started.")
-resource_table = pd.read_csv(url, dtype={'name': str, 'url': str, 'description': str, 'related_pages': str, 'type': str, 'provider': str})
+resource_table = pd.read_csv(url, dtype={'name': str, 'url': str, 'description': str, 'related_pages': str, 'Topics': str, 'type': str, 'provider': str})
 resource_list = resource_table.to_dict("records")
 clean_resource_list = []
 for resource in resource_list:
