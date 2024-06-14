@@ -6,17 +6,7 @@ subitems:
   - title: Collections
     subitems:
       - title: Data management
-        subitems:
-          - title: Data analysis
-            url: /data_analysis
-          - title: Data collection
-            url: /data_collection
-          - title: Data planning
-            url: /data_planning
-          - title: Data reuse
-            url: /data_reuse
-          - title: Data sharing
-            url: /data_sharing
+        url:/data_management
       - title: Genomics
         url: /genomics
       - title: Metabolomics
