@@ -58,3 +58,10 @@ h2 {
 .navigation-tiles .btn {
     font-size: 1rem !important;
 }
+.navigation-tiles .btn > a {
+    &.active {
+        color: $black;
+        background-color: $white;
+        border-radius: $border-radius;
+    }
+}
