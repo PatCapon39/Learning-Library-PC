@@ -12,7 +12,7 @@
             <tr class="text-nowrap">
                 <th>Resource</th>
                 <th>Description</th>
-                <th>Collection(s)</th>
+              <!-- <th>Collection(s)</th> -->
                 <th>Topic(s)</th>
                 <th>Format</th>
                 <th>Provider</th>
@@ -42,7 +42,7 @@
                 <a href="{{related_page.url | relative_url }}" data-bs-toggle="tooltip" title="{{related_page.type | replace: '_', ' ' | capitalize}}"><span class="badge default-badge">{{ related_page.title | truncate: 25 }}</span></a>
                 {%- endfor %}
                 {%- endcapture %}
-                <td>{{related_pages}}</td>
+               <!-- <td>{{related_pages}}</td> -->
                 <td>{{tool.Topics}}</td>
                 <td>{{tool.type}}</td>
                 <td>{{tool.provider}}</td>
