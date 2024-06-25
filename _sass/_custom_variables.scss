@@ -7,6 +7,8 @@ $h2-color: $primary;
 /*-----Buttons hover style-----*/
 $btn-primary-bg-hover: $light;
 $btn-primary-color-hover: $dark;
+$btn-primary-bg: $primary;
+$btn-primary-color: $white;
 
 /*-----Top navigation-----*/
 $topnav-bg: $light;
@@ -34,8 +36,6 @@ $nav-card-badge-color: $body-color;
 $nav-card-badge-bg: $white;
 $nav-card-badge-color-hover: $white;
 $nav-card-badge-bg-hover: $light;
-$navigation-tiles-bg: $primary;
-$navigation-tiles-color: $white;
 
 /*-----More information tiles-----*/
 $info-card-bg: $light;
