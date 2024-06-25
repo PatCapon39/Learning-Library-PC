@@ -28,12 +28,9 @@ $sidebar-color-active: $dark;
 
 /*-----Section navigation tiles-----*/
 $nav-card-bg: $primary;
-$nav-card-header-bg: $secondary;
-$nav-card-header-color: $white;
-$nav-card-badge-color: $body-color;
-$nav-card-badge-bg: $white;
-$nav-card-badge-color-hover: $white;
-$nav-card-badge-bg-hover: $light;
+$nav-card-color: $white;
+$nav-card-bg-hover: $light;
+$nav-card-color-hover: $dark;
 
 /*-----More information tiles-----*/
 $info-card-bg: $light;
