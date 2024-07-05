@@ -3,34 +3,35 @@
 /*-----General styling-----*/
 $font-family-theme: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $h2-color: $primary;
+$callout-text: $bioc-yellow;
 
 /*-----Buttons hover style-----*/
-$btn-primary-bg-hover: $light;
-$btn-primary-color-hover: $dark;
+$btn-primary-bg-hover: $primary;
+$btn-primary-color-hover: $white;
 
 /*-----Top navigation-----*/
-$topnav-bg: $light;
-$topnav-title-color: $dark;
+$topnav-bg: $bioc-olive;
+$topnav-title-color: $white;
 $topnav-brand-height: 44px;
 
 /*-----Search-----*/
 $search-result-color: $primary;
 
 /*-----Sidebar-----*/
-$sidebar-bg: $bioc-olive;
-$sidebar-color: $white;
-$sidebar-lvl2-bg: $bioc-olive;
-$sidebar-lvl2-color: $white;
-$sidebar-lvl3-bg: $bioc-olive;
-$sidebar-lvl3-color: $white;
-$sidebar-bg-active: $light;
-$sidebar-color-active: $dark;
+$sidebar-bg: $light;
+$sidebar-color: $black;
+$sidebar-lvl2-bg: $light;
+$sidebar-lvl2-color: $black;
+$sidebar-lvl3-bg: $light;
+$sidebar-lvl3-color: $black;
+$sidebar-bg-active: $primary;
+$sidebar-color-active: $white;
 
 /*-----Section navigation tiles-----*/
-$nav-card-bg: $bioc-olive;
-$nav-card-color: $white;
-$nav-card-bg-hover: $light;
-$nav-card-color-hover: $dark;
+$nav-card-bg: $light;
+$nav-card-color: $black;
+$nav-card-bg-hover: $primary;
+$nav-card-color-hover: $white;
 
 /*-----More information tiles-----*/
 $info-card-bg: $light;
