@@ -3,14 +3,14 @@
 /*-----General styling-----*/
 $font-family-theme: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $h2-color: $primary;
-$callout-text: $bioc-yellow;
+$callout-text: color=bioc-yellow;
 
 /*-----Buttons hover style-----*/
 $btn-primary-bg-hover: $primary;
 $btn-primary-color-hover: $white;
 
 /*-----Top navigation-----*/
-$topnav-bg: $bioc-olive;
+$topnav-bg: $light;
 $topnav-title-color: $white;
 $topnav-brand-height: 44px;
 
