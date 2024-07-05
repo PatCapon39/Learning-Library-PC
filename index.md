@@ -14,10 +14,11 @@ Welcome to the Learning Library - a selection of recommended resources to get yo
 
 #### [View all resources](resources)
 
-<span style="color: $bioc-yellow;">The Learning Library is under active development. Further collections are planned</span>
+<div class="callout-text">
+The Learning Library is under active development. Further collections are planned
+</div>
 
-{% include callout.html type="note" content="" %}
-If you are seeking live training, please [visit the BioCommons website for upcoming events](https://www.biocommons.org.au/webinars-workshops).
+*If you are seeking live training, please [visit the BioCommons website for upcoming events](https://www.biocommons.org.au/webinars-workshops).*
 
 ## Acknowledgements
 These collections were curated by groups of Australian researchers and service providers who were invited to recommend trusted resources in their areas of expertise. BioCommons acknowledges the contributions of the people listed in individual collections and is grateful for their commitment to sharing their knowledge with the research community.
