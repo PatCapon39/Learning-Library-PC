@@ -5,8 +5,6 @@ description:
 affiliations: 
 toc: false
 ---
-{% include callout.html type="important" content="The Learning Library is in beta and under active development." %}
-
 Welcome to the Learning Library - a selection of recommended resources to get you started in a new topic. These themed collections are curated by the life sciences community in collaboration with the Australian BioCommons.
 
 ## Browse the collections
@@ -16,7 +14,10 @@ Welcome to the Learning Library - a selection of recommended resources to get yo
 
 #### [View all resources](resources)
 
-{% include callout.html type="note" content="If you are seeking live training, please [visit the BioCommons website for upcoming events](https://www.biocommons.org.au/webinars-workshops)." %}
+<span style="color: $bioc-yellow;">The Learning Library is under active development. Further collections are planned</span>
+
+{% include callout.html type="note" content="" %}
+If you are seeking live training, please [visit the BioCommons website for upcoming events](https://www.biocommons.org.au/webinars-workshops).
 
 ## Acknowledgements
 These collections were curated by groups of Australian researchers and service providers who were invited to recommend trusted resources in their areas of expertise. BioCommons acknowledges the contributions of the people listed in individual collections and is grateful for their commitment to sharing their knowledge with the research community.
